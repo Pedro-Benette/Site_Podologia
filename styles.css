@@ -133,7 +133,7 @@ body {
 .services h2::after {
     content: '';
     width: 80px;
-    height: 4px;
+    height: 4.7px;
     background: #007BFF;
     display: block;
     margin: 10px auto;
@@ -184,6 +184,16 @@ body {
     font-size: 2.5rem;
     color: #007BFF;
     margin-bottom: 40px;
+}
+
+.about h2::after {
+    content: '';
+    width: 80px;
+    height: 4px;
+    background: #007BFF;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
 }
 
 .about p {
@@ -237,6 +247,16 @@ body {
     font-size: 2.5rem;
     color: #007BFF;
     margin-bottom: 40px;
+}
+
+.contact h2::after {
+    content: '';
+    width: 80px;
+    height: 4px;
+    background: #007BFF;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
 }
 
 .contact-info {
@@ -417,7 +437,7 @@ body {
 }
 
 .map h2 {
-    display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
@@ -426,7 +446,18 @@ body {
     padding: 80px 5%;
 }
 
+.map h2::after {
+    content: '';
+    width: 80px;
+    height: 4.7px;
+    background: #007BFF;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
 .map-container {
+    background-color: #eef5f9;
     display:flex;
     flex-direction: column;
     justify-content: right; /* Centraliza horizontalmente */
