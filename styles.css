@@ -158,8 +158,8 @@ body {
 }
 
 .service-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-20px);
+    box-shadow: 0 16px 12px rgba(0, 0, 0, 0.5);
 }
 
 .service-item h3 {
@@ -397,6 +397,7 @@ body {
 }
 
 @media (max-width: 480px) {
+    
     .logo {
         font-size: 1rem;
     }
