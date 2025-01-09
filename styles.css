@@ -133,7 +133,7 @@ body {
 .services h2::after {
     content: '';
     width: 80px;
-    height: 4.7px;
+    height: 5px;
     background: #007BFF;
     display: block;
     margin: 10px auto;
@@ -189,7 +189,7 @@ body {
 .about h2::after {
     content: '';
     width: 80px;
-    height: 4px;
+    height: 5px;
     background: #007BFF;
     display: block;
     margin: 10px auto;
@@ -252,7 +252,7 @@ body {
 .contact h2::after {
     content: '';
     width: 80px;
-    height: 4px;
+    height: 5px;
     background: #007BFF;
     display: block;
     margin: 10px auto;
@@ -450,7 +450,7 @@ body {
 .map h2::after {
     content: '';
     width: 80px;
-    height: 4.7px;
+    height: 5px;
     background: #007BFF;
     display: block;
     margin: 10px auto;
